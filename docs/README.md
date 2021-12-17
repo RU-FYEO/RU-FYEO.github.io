@@ -1,18 +1,3 @@
-# RU-FYEO.github.io
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!-- saved from url=(0031)http://ask.ryerson.ca/index.jsp -->
