@@ -49,28 +49,15 @@
     <div id="main_content_both">
                                
    <form action="/search.html" method="get">
-		<label for="search_box">Search</label>
-		<input type="text" id="search_box" name="query">
-		<input type="submit" value="search">
+		<label for="search_box">Ask FYEO</label>
+		<input type="text" id="search_box" value="Ask your question here" name="query">
+		<input type="submit" value="Search">
 	</form>
 
 
 
-      <div id="irQuestionForm">
-        <form id="questionForm" method="post" action="index.jsp">
-          <div>
-            <input type="submit" id="AskButton" name="NormalRequest" style="display:none" value="Submit"/>
-            <input type="hidden" name="interfaceID" value="1"/>
-            <input type="hidden" name="sessionId" value="03375f46-43fd-11ec-a645-796a64b43d70"/>
-            <input type="hidden" name="id" id="respId" value="-1"/>
-            <input type="hidden" name="requestType"/>
-            <input type="hidden" name="source" id="sourceId" value="1"/>
-            <input type="text" id="question" name="question" value="Ask your question here" size="55" maxlength="250" onfocus="if(this.value == 'Type a question here. Use a complete sentence.'){ this.value='';}else{this.select();}" onblur="if(this.value=='') this.value='Type a question here. Use a complete sentence.';" class="irQuestionBox ui-autocomplete-input"/>
-            <input type="submit" id="AskButton" name="NormalRequest" style="display:none" value="Submit"/>
-          </div>
-        </form>
-        <div id="irQuestionBlurb">
-          <span class="askryersonsubtext">After typing in question press "Enter" key for results.</span>
+      
+          <span class="askryersonsubtext">After typing in question press "search" for results.</span>
         </div>
       </div>
 
