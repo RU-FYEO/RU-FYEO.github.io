@@ -11,7 +11,7 @@ layout: search
 
 <script>
   window.store = {
-    {% for Question in site.data %}
+    {% for Question in data %}
       "{{ post.url | slugify }}": {
         "Question": "{{ data.Question | xml_escape }}",
         "Answer": "{{ data.Answer | xml_escape }}",
