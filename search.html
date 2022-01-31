@@ -11,11 +11,11 @@ layout: search
 
 <script>
   window.store = {
-    {% for Question in data %}
+    {% for post in site.posts %}
       "{{ post.url | slugify }}": {
-        "Question": "{{ data.Question | xml_escape }}",
-        "Answer": "{{ data.Answer | xml_escape }}",
-        "Category": "{{ data.Category | xml_escape }}",
+        "title": "{{ post.title | xml_escape }}",
+        "author": "{{ post.author | xml_escape }}",
+        "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ post.url | xml_escape }}"
       }
